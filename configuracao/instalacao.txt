@@ -1,0 +1,1 @@
+sudo apt install default-jdk apache2 tomcat9

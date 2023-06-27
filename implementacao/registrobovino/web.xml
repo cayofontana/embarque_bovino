@@ -1,0 +1,25 @@
+<web-app>
+	<servlet>
+		<servlet-name>servletregistroBovino</servlet-name>
+		<servlet-class>registrobovino.controle.BovinoControle</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>servletlistaBovino</servlet-name>
+		<servlet-class>registrobovino.controle.ListaBovinoControle</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>servletregistroBovino</servlet-name>
+		<url-pattern>/registrobovino</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>servletlistaBovino</servlet-name>
+		<url-pattern>/listabovino</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<description>Armazenamento de arquivos</description>
+		<param-name>file-upload</param-name>
+		<param-value>/var/lib/tomcat9/webapps/data/</param-value>
+	</context-param>
+</web-app>

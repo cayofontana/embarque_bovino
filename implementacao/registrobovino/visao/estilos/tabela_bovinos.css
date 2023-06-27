@@ -1,0 +1,45 @@
+* {
+	text-align: center;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: black;
+	color: white;
+	line-height: 40px;
+}
+
+tbody {
+	color: #202020;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #F0F0F0;
+}
+
+tr td:not(:last-child) {
+	padding: 3px 50px;
+}
+
+input {
+	padding: 5px 10px;
+	margin: 1px 0px;
+}
+
+input[type=button] {
+	width: 100px;
+}
+
+input[type=submit] {
+	width: 200px;
+}

@@ -1,0 +1,1 @@
+sudo rm -rf * && sudo cp -rf ~/git/embarque_bovino/implementacao/registrobovino/ . && sudo find . -name "*java" -delete && sudo rm -rf ../../*jsp && sudo rm -rf ../../imagens && sudo rm -rf ../../estilos && sudo rm -rf ../../scripts && sudo rm ../web.xml  && sudo cp -r registrobovino/visao/* ../../ && sudo rm -R registrobovino/visao/* && sudo mv registrobovino/web.xml ../

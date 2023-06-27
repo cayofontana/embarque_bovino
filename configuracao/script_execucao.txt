@@ -1,0 +1,1 @@
+find registrobovino/ -name "*class" -delete && javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar:../bibliotecas/pdfbox-3.0.0-alpha3.jar:../bibliotecas/commons-io-2.13.0.jar:../bibliotecas/commons-fileupload-1.5.jar registrobovino/controle/BovinoControle.java registrobovino/controle/ListaBovinoControle.java && sudo systemctl restart tomcat9.service

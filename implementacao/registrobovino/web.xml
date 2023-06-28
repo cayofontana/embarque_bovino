@@ -22,4 +22,7 @@
 		<param-name>file-upload</param-name>
 		<param-value>/var/lib/tomcat9/webapps/data/</param-value>
 	</context-param>
+	<session-config>
+		<session-timeout>0</session-timeout>
+	</session-config>
 </web-app>

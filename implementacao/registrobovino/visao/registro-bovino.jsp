@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Registro Bovino v1.0</title>
+		<link rel="stylesheet" href="estilos/leiaute.css">
 		<link rel="stylesheet" href="estilos/tabela_bovinos.css">
 		<style>
 			html {
